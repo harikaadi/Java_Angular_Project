@@ -1,4 +1,4 @@
-package com.asset.service;
+package com.amaze_care.service;
 
 import java.util.Collections;
 
@@ -10,8 +10,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.asset.model.UserInfo;
-import com.asset.repo.UserRepository;
+import com.amaze_care.model.UserInfo;
+import com.amaze_care.repo.UserRepository;
 
 @Service
 public class MyUserDetailsService implements UserDetailsService {

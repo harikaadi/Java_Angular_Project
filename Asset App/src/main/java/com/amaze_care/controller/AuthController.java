@@ -1,4 +1,4 @@
-package com.asset.controller;
+package com.amaze_care.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.asset.JwtUtil;
-import com.asset.model.UserInfo;
-import com.asset.service.MyUserDetailsService;
+import com.amaze_care.JwtUtil;
+import com.amaze_care.model.UserInfo;
+import com.amaze_care.service.MyUserDetailsService;
 
 @RestController
 public class AuthController {

@@ -1,8 +1,8 @@
-package com.asset.repo;
+package com.amaze_care.repo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.asset.model.UserInfo;
+import com.amaze_care.model.UserInfo;
 
 import java.util.Optional;
 

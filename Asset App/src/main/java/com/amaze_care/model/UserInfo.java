@@ -1,4 +1,4 @@
-package com.asset.model;
+package com.amaze_care.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package com.asset.controller;
+package com.amaze_care.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.asset.model.UserInfo;
-import com.asset.repo.UserRepository;
+import com.amaze_care.model.UserInfo;
+import com.amaze_care.repo.UserRepository;
 
 @RestController
  public class UserController {

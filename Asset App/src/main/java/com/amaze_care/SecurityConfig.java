@@ -1,4 +1,4 @@
-package com.asset;
+package com.amaze_care;
  
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
